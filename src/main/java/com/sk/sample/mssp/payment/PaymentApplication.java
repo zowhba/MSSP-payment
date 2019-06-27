@@ -29,7 +29,7 @@ public class PaymentApplication {
 	
 	public void insertCredits(CreditRepository creditRepository) {
 		
-		Credit account1 = new Credit(new CreditCard("12345678","2020"));
+		Credit account1 = new Credit(new CreditCard("12345678","0320"));
 		creditRepository.save(account1);
 		
 	}
